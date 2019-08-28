@@ -1,0 +1,18 @@
+li.techUsed{
+    display: inline-block;
+}
+
+nav  > ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li.navBarList{
+    display: flex;
+    /* float: left; */
+}
+
+li.socials{
+    display: inline-block;
+}
