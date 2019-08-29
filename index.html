@@ -11,23 +11,25 @@
 
     <title>My Portfolio</title>
 </head>
-<body>
+<body class = "is-preload">
     <!-- Header -->
-	<header id="header">
-	<div class="inner">
-	<a href="#" class="image profile"><img src="assets/images/profilePicture.jpg" alt="" /></a>
-	<h1><strong>I am Michael Anokye</strong>, a software engineer.</h1>
-	</div>
+    <header id="header">
+        <div class="inner">
+            <a href="#" class="image avatar"><img src="assets/images/profilePicture.jpg" alt="" /></a>
+            <h1><strong>I am Michael Anokye</strong>, a multi-faceted software engineer<br />
+                Click <a href="resume.html">HERE</a> to view my resume.</h1>
+        </div>
     </header>
 
     <!-- Main div -->
     <div id = "mainDiv">
         <section id = "bio">
+            <header>
             <h2>Hi, I’m Michael, a multi-faceted software engineer who is knowledgeable in JavaScript, Python, MySQL, HTML, CSS etc. A true team player offering with a strong student mentality; always learning, ready and willing to learn. </br>
                 Motivated to stay informed of latest industry innovations to provide customers/users with most up-to-date solutions. Capable of working in high-pressure environments while meeting business needs and project expectations.
             </header>
             <ul class="actions">
-                <li><a href="resume.html" class="button" >Go to Resume</a></li>
+                <li><a href="resume.html" class="button" >My Resume</a></li>
             </ul>
         </section>
 
@@ -44,8 +46,8 @@
                     <li class = "techUsed"><i class="fab fa-js"></i></li>
                     <li class = "techUsed"><i class="fab fa-css3-alt"></i></li>
                 </ul>
-            </article class="col-6 col-12-xsmall work-item">
-            <article>
+            </article>
+            <article class="col-6 col-12-xsmall work-item">
                 <a href="assets/images/todoList.png" class="image fit thumb"><img src="assets/images/todoList.png" alt="" /></a>
                 <h3>ToDo List WebAp</h3>
                 <p>A very simple webApp help keep track of goals throughout the day. The user is able to add and delete ToDos as needed.</p>
@@ -65,52 +67,57 @@
     <section id="contactForm">
         <h2>Get In Touch With Me</h2>
         <p>Let's talk about your opportunity and how I can assist.</p>
-        <div class = "row">
-            <div class="col-8 col-12-small">
-                <form method="post" action="#">
-                    <div class="row gtr-uniform gtr-50">
-                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                        <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                    </div>
-                </form>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message" /></li>
-                </ul>
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="3"></textarea>
+                </div>
             </div>
-            <div class="col-4 col-12-small">
-                <ul class="labeled-icons">
-                    <li>
-                        <h3><i class="fas fa-home"></i><span class="label">Address</span></h3>
-                        9300 Corporate Blvd.<br />
-                        Rockville, MD 20850<br />
-                        United States
-                    </li>
-                    <li>
-                        <h3><i class="fas fa-phone"></i><span class="label">Phone</span></h3>
-                        571-552-8289
-                    </li>
-                    <li>
-                        <h3><i class="fas fa-envelope"></i><span class="label">Email</span></h3>
-                        <a href= "mailto:michaelanokyej@yahoo.com">michaelanokyej@yahoo.com</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" /></li>
+            </ul>
+        </form>
     </section>
+
+    <section class="split contact">
+            <section class="alt">
+                <h3>Address</h3>
+                <p>9300 Corporate  Blvd<br />
+                Rockville MD 20850</p>
+            </section>
+            <section>
+                <h3>Phone</h3>
+                <p><a href="tel:+5715528289">(571) 552-8289</a></p>
+            </section>
+            <section>
+                <h3>Email</h3>
+                <p><a href="mailto:michaelanokyej@yahoo.com">michaelanokyej@yahoo.com</a></p>
+            </section>
+        </section>
     </div>
 
     		<!-- Footer -->
-<footer id="footer">
-    <div class="inner">
-        <ul class="icons">
-            <li class="socials"><a href="https://github.com/michaelanokyej"><span class="label"><i class="fab fa-github"></i></span></a></li>
-            <li class="socials"><a href="mailto:michaelanokyej@yahoo.com"><span class="label"><i class="fas fa-envelope"></i></span></a></li>
-            <li class="socials"><a href="https://www.linkedin.com/in/michael-anokye-7125ba175/"><span class="label"><i class="fab fa-linkedin"></i></i></span></a></li>
-            
-        </ul>
-    </div>
-</footer>
+    <footer id="footer">
+        <div class="inner">
+            <h3>Social</h3>
+            <ul class="icons">
+                <li class="socials"><a href="https://github.com/michaelanokyej"><span class="label"><i class="fab fa-github"></i></span></a></li>
+                <li class="socials"><a href="mailto:michaelanokyej@yahoo.com"><span class="label"><i class="fas fa-envelope"></i></span></a></li>
+                <li class="socials"><a href="https://www.linkedin.com/in/michael-anokye-7125ba175/"><span class="label"><i class="fab fa-linkedin"></i></i></span></a></li>
+            </ul>
+            <ul class="copyright">
+                    <li>&copy; Michael Anokye</li><li>Software Engineer: <a target="_blank" href="https://github.com/michaelanokyej">Portfolio</a></li>
+                </ul>
+    </footer>
 
 
 
