@@ -18,10 +18,10 @@
     <nav class="navbar">
         <div>
             <ul class="navButtons">
-                <li class="button"><a href="index.html"><i class="fas fa-home"></i></a></li>
-                <li class="button"><a href="resume.html" target="_blank"><i class="fas fa-briefcase"></i></a></li>
+                <li class="button center"><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li class="button center"><a href="resume.html" target="_blank"><i class="fas fa-briefcase"></i></a></li>
                 <!-- This will link to the part of the page with the contact form -->
-                    <li class="button"><a href="#" target="_blank"><i class="fas fa-address-card"></i></a></li>
+                    <li class="button center"><a href="#" target="_blank"><i class="fas fa-address-card"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -29,6 +29,7 @@
     <!-- Header -->
  <!--    Header will stick on the left side when website is opened on a desktop 
     header will go up the stack when it is opened on a mobile device -->
+    <div id="wrapper">
     <header id="header">
         <img src="assets/images/profilePicture.jpg" alt="my profile picture" class="avatar">
         <p>
@@ -37,20 +38,46 @@
         </p>
     </header>
 
-    <section class="main">
+    <section id ="main">
         <div class="bio">
             <h3>Hi, I’m Michael, a multi-faceted software engineer who is knowledgeable in JavaScript, Python, MySQL, HTML, CSS etc. A true team player offering with a strong student mentality; always learning, ready and willing to learn. 
             Motivated to stay informed of latest industry innovations to provide customers/users with most up-to-date solutions. Capable of working in high-pressure environments while meeting business needs and project expectations.</h3>
         </div>
+
+        <hr />
+
+        <div id ="projects">
+            <div class="projectContainer">
+                <h2 class="sectionTitle">My Recent Projects</h2>
+                <div class="project">
+                    <img src="assets/images/quizapp.png" alt="quizapp screenshot">
+                    <h3 class="projectTitle">World History Trivia WebApp</h3>
+                    <p class="center">A history trivia web app that samples through a pool of questions for user.<br />
+                    The user has the ability to navigate questions and feedback is provided on user answer selections. <br />
+                    User is also able to restart game when completed.</p>
+                </div>
+
+              <!--   <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                </ul> -->
+            </div>
+        </div>
     </section>
+
+    </div>
 
     <section id="footer">
         <footer>
         <div class="social">
             <ul class="socials">
-                <li><a href="https://github.com/michaelanokyej"><span class="label"><i class="fab fa-github"></i></span></a></li>
-                <li><a href="mailto:michaelanokyej@yahoo.com"><span class="label"><i class="fas fa-envelope"></i></span></a></li>
-                <li><a href="https://www.linkedin.com/in/michael-anokye-7125ba175/"><span class="label"><i class="fab fa-linkedin"></i></i></span></a></li>
+                <li class="center"><a href="https://github.com/michaelanokyej"><span class="label"><i class="fab fa-github"></i></span></a></li>
+                <li class="center"><a href="mailto:michaelanokyej@yahoo.com"><span class="label"><i class="fas fa-envelope"></i></span></a></li>
+                <li class="center"><a href="https://www.linkedin.com/in/michael-anokye-7125ba175/"><span class="label"><i class="fab fa-linkedin"></i></i></span></a></li>
             </ul>
             <ul class="copyright">
                 <li>&copy; Michael Anokye</li><li>Software Engineer: <a target="_blank" href="https://github.com/michaelanokyej">Portfolio</a></li>
