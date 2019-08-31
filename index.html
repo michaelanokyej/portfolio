@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- <link href="assets/css/fonts/Roboto" rel="stylesheet"> -->
     <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
@@ -39,52 +40,88 @@
         </header>
 
     <section id ="main">
+
+    <!-- Bio and Heading Section -->
         <div class="bio">
             <h3>Hi, I’m Michael, a multi-faceted software engineer who is knowledgeable in JavaScript, Python, MySQL, HTML, CSS etc. A true team player offering with a strong student mentality; always learning, ready and willing to learn. 
-            Motivated to stay informed of latest industry innovations to provide customers/users with most up-to-date solutions. Capable of working in high-pressure environments while meeting business needs and project expectations.</h3>
+            </h3>
+            <ul class="links">
+            <li><a class="linkButton center" href="resume.html" >My Resume</a></li>
+            </ul>
         </div>
 
         <hr />
 
+    <!-- Project Section     -->
         <div id ="projects">
-            <div>
                 <h2 class="sectionTitle center">My Recent Projects</h2>
                 <div class="projectContainer">
                     <ul>
                         <li> <div class="title">World History Trivia WebApp</div>
-                            <!-- <img src="assets/images/quizapp.png" alt="quizapp screenshot">    -->
+                            <img src="assets/images/quizapp.png" alt="quizapp screenshot" class="projectImage">
+                            <p class="center description">A history trivia web app that samples through a pool of questions for user.</p>  
                         </li>
-                        <li> <div class="title">ToDo List WebApp<div></div></li>
+
+                        <li> <div class="title">ToDo List WebApp</div>
+                           <img src="assets/images/todoList.png" alt="Todo List screenshot" class="projectImage" />
+                            <p class="center description">A very simple webApp to keep track of goals.</p>
+                        </li>
                     </ul>
-
-
-
-
-
-
-
-
-
-
-                   <!--  <img src="assets/images/quizapp.png" alt="quizapp screenshot">
-                    <h3 class="projectTitle">World History Trivia WebApp</h3>
-                    <p class="center">A history trivia web app that samples through a pool of questions for user.<br />
-                    The user has the ability to navigate questions and feedback is provided on user answer selections. <br />
-                    User is also able to restart game when completed.</p>
-                </div>
-
-                <div class="projectContainer">
-                    <img src="assets/images/todoList.png" alt="Todo List screenshot">
-                    <h3 class="projectTitle">ToDo List WebApp</h3>
-                    <p class="center">A very simple webApp help keep track of goals throughout the day. <br />
-                        The user is able to add and delete ToDos as needed.
-                </div> -->
             </div>
+             <ul class="links center">
+            <li><a class="linkButton center" href="projects.html" >My Projects</a></li>
+            </ul>
+        </div>
+
+        <hr />
+
+    <!-- Contact Section -->
+        <div id= "contact">
+          <h1 class="center contactMessage">Get in touch</h1>
+          <div class="contactWrapper animated bounceInLeft">
+              <div class="myInfo">
+                  <h3>Michael Anokye</h3>
+                  <ul>
+                      <li><i class="fas fa-road"></i>9300 Corporate  Blvd<br /> Rockville MD 20850</li>
+                      <li><i class="fas fa-envelope"></i>michaelanokyej@yahoo.com</li>
+                  </ul>
+              </div>
+
+              <div class="contactForm">
+                  <h3>Email Me</h3>
+                  <form action="mailto:michaelanokyej@yahoo.com">
+                      <p>
+                          <label>Name</label>
+                          <input type="text" name="name">
+                      </p>
+                      <p>
+                          <label>Company</label>
+                          <input type="email" name="company">
+                      </p>
+                      <p>
+                          <label>Email Address</label>
+                          <input type="email" name="email">
+                      </p>
+                      <p>
+                          <label>Phone Number</label>
+                          <input type="Number" name="phone">
+                      </p>
+                      <p class="full">
+                          <label>Message</label>
+                          <textarea name="message" rows="4"></textarea>
+                      </p>
+                      <p class="full">
+                          <button>Submit</button>
+                      </p>
+                  </form>
+              </div>
+          </div>
         </div>
     </section>
 
     </div>
 
+    <!-- Footer -->
     <section id="footer">
         <footer>
         <div class="social">
