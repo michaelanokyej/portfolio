@@ -5,6 +5,10 @@ body * {
 	padding: 0;
 }
 
+a{
+	text-decoration: none;
+}
+
 /*Wrapper*/
 #wrapper{
 	/*display: flex;*/
@@ -38,18 +42,24 @@ div.bio{
 	text-align: center;
 }
 
-/*div.project {
-  display: flex;
-  /*flex-direction: row;*/
-  /*flex-wrap: wrap;*/
-  /*height: 250px;*/ /* account for borders */
-  /*width: 250px;*/
-/*}*/
+a.projectButton{
+	background: #c9e6ff;
+  	border: none;
+  	color: #92bde7;
+  	padding: 4px 4px;
+  	margin-left: 80px;
+  	margin-top: 8px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 12px;
+}
 
-/*div.project > img{
-	width: 200px;
-	height: 220px;
-}*/
+a.projectButton:hover, a.projectButton:focus{
+	background: #92bde7;
+	color: #f9feff;
+	outline: 0;
+	transition: background-color 2s ease-out;
+}
 
 #projects{
 	padding: 0px;
@@ -133,6 +143,10 @@ div.contactForm form button:hover, div.contactForm form button:focus{
 	transition: background-color 2s ease-out;
 }
 
+/*div.projectContainer ul li{
+	ma
+}*/
+
 div.projectContainer{
 	width: 100%;
 	overflow: hidden;
@@ -173,7 +187,7 @@ div.projectContainer ul li .projectImage {
 	width: 70%;
 	padding-left: 24px;
 	padding-right: 24px;
-	padding-top: 16px;
+	padding-top: 0;
 	padding-bottom: 0px;
 	/*padding: 24px;*/
 	margin: 2px 10px 0px 15px;
@@ -264,10 +278,10 @@ ul.links{
 }
 
 li > a.linkButton{
-	border: 1px solid red;
-	background-color: #4CAF50; /* Green */
+	/*border: 1px solid red;*/
+	background-color: #c9e6ff;
   border: none;
-  color: white;
+  color: #92bde7;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -278,6 +292,10 @@ li > a.linkButton{
 li > a:hover, li > a:focus{
   /*box-shadow: 0 0 2px 1px rgba(113, 245, 137, 0.5);*/
   border: 5px solid #F2B3D6;
+  outline: 0;
+  transition: background-color 2s ease-out;
+  background: #92bde7;
+  color: white;
 }
 
 .center{
