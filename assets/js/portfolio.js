@@ -1,12 +1,7 @@
-const toggleButton = $('.toggle-button');
-const	navbarLinks = $('.navLinks');
+// const toggleButton = $('.toggle-button')[0];
+// const	navbarLinks = $('.navLinks')[0];
 
 
-toggleButton.addEventListener('click', function() {
-	navbarLinks.classList.toggle('active');
-});
-
-// $(".toggle-button").click(function(){
-// 	$(".navLinks").toggleClass("active");
-//   });
-
+// toggleButton.addEventListener('click', () => {
+// 	navbarLinks.classList.toggle('active');
+// });

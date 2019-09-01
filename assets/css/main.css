@@ -237,8 +237,8 @@ hr{
 	justify-content: space-between;
 	align-items: center;
 	background-color: #333;
+	flex-direction: column;
 	color: white;
-	/*margin: 0;*/
 	width: 100%
 }
 
@@ -265,7 +265,8 @@ hr{
 	color: white;
 }
 
-.toggle-button{
+/* hanburger menu style  */
+/* .toggle-button{
 	position: absolute;
 	top: 1.5rem;
 	right: 1rem;
@@ -281,7 +282,7 @@ hr{
 	width: 100%;
 	background-color: white;
 	border-radius: 10px;
-}
+} */
 
 
 
@@ -417,10 +418,13 @@ li > a:hover, li > a:focus{
 		text-align: left;
 	}
 
+	.navbar{
+		flex-direction: row;
+	}
 }
 
 /*navbar media queries*/
-@media(max-width: 550px){
+/* @media(max-width: 550px){
 	.toggle-button{
 		display: flex;
 	}
@@ -451,5 +455,5 @@ li > a:hover, li > a:focus{
 	.navLinks.active{
 		display: flex;
 	}
-}
+} */
 
