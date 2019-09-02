@@ -5,3 +5,9 @@
 // toggleButton.addEventListener('click', () => {
 // 	navbarLinks.classList.toggle('active');
 // });
+
+// const inProgress = document.querySelectorAll('a.futureProject');
+
+// inProgress.addEventListener('click', function(){
+// 	alert('SORRY, THIS PROJECT IS STILL UNDER PRODUCTION');
+// });
