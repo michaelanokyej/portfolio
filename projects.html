@@ -4,23 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Projects</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>    
+    <!-- <link href="assets/css/fonts/Roboto" rel="stylesheet"> -->
+    <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
+
+    <title>My Projects</title>
 </head>
 <body>
 
-    <!-- Navbar  -->
-    <nav role = "navigation" class = "navBar">
-        <ul>
-            <li class= "navBarList"><a href="index.html" class="button"><i class="fas fa-home"></i></a></li>
-            <li class= "navBarList"><a href="#contactForm" class="button"><i class="fas fa-envelope"></i></a></li>
-            <li class= "navBarList"><a href="resume.html" class="button"><i class="fas fa-file"></i></a></li>
-        </ul>
-    </nav>  
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brandTitle"><a href="index.html">My Portfolio</a></div>
 
-  <h1>This is the  projects file</h1>  
+        <!-- hanburger menu Markup -->
+        <!-- <a href="" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a> -->
+        <div class="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" target="_blank">About</a></li>
+                <li><a href="index/#contact" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+ <!--    Header will stick on the left side when website is opened on a desktop 
+    header will go up the stack when it is opened on a mobile device -->
+    <div id="wrapper">
+        <header id="header" class="center">
+            <img src="assets/images/profilePicture.jpg" alt="my profile picture" class="avatar">
+            <p>
+                Michael Anokye <br />
+                Click <a href="resume.html">here</a> to view my resume.
+            </p>
+        </header>
+
+    <section id ="main">
+        <div id ="projects">
+            <h2 class="sectionTitle center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatibus, laborum quos sunt harum officia consequuntur neque! Nulla porro ipsam incidunt voluptate obcaecati atque voluptates earum vero fugit, ullam voluptas?</h2>
+                <div class="projectContainer">
+                    <ul>
+                        <li> <div class="title">World History Trivia WebApp</div>
+                            <!-- <a href="projects/gallery.html" class="image fit" target="_blank"><img src="projects/gallery.gif" alt="picture of gallery website" /></a> -->
+
+                            <img src="assets/images/quizapp.png" alt="quizapp screenshot" class="projectImage">
+                            <p class="center description">A history trivia web app that samples through a pool of questions for user.</p>
+                            <a href="https://michaelanokyej.github.io/quizapp/" class ="projectButton" target="_blank">View Project</a>
+
+                            <!-- <p class =" center projectButton">View <a href="https://michaelanokyej.github.io/quizapp/"> Project</a></p>  --> 
+                        </li>
+
+                        <li> <div class="title">ToDo List WebApp</div>
+                           <img src="assets/images/todoList.png" alt="Todo List screenshot" class="projectImage" />
+                            <p class="center description">A very simple webApp to keep track of goals.</p>
+                            <a href="https://michaelanokyej.github.io/toDoListProject/" class ="projectButton" target="_blank">View Project</a>
+
+                          <!--   <p class =" center projectButton">View <a href="https://michaelanokyej.github.io/toDoListProject/"> Project</a></p>  -->
+                        </li>
+                        
+                        <li> <div class="title">Future Project</div>
+                            <img src="assets/images/future1.png" alt="gallery screenshot" class="projectImage" />
+                             <p class="center description">An app to share photos.</p>
+                             <a href="#" class ="projectButton" target="_blank">View Project</a>
+ 
+                           <!--   <p class =" center projectButton">View <a href="https://michaelanokyej.github.io/toDoListProject/"> Project</a></p>  -->
+                         </li>
+
+                         <li> <div class="title">Future Project</div>
+                            <img src="assets/images/future2.png" alt="matchApp screenshot" class="projectImage" />
+                             <p class="center description">A dating app.</p>
+                             <a href="#" class ="projectButton" target="_blank">View Project</a>
+ 
+                           <!--   <p class =" center projectButton">View <a href="https://michaelanokyej.github.io/toDoListProject/"> Project</a></p>  -->
+                         </li>
+                    </ul>
+            </div>
+             
+        </div>
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <footer>
+        <div class="social">
+            <ul class="socials">
+                <li class="center"><a href="https://github.com/michaelanokyej"><span class="label"><i class="fab fa-github"></i></span></a></li>
+                <li class="center"><a href="mailto:michaelanokyej@yahoo.com"><span class="label"><i class="fas fa-envelope"></i></span></a></li>
+                <li class="center"><a href="https://www.linkedin.com/in/michael-anokye-7125ba175/"><span class="label"><i class="fab fa-linkedin"></i></i></span></a></li>
+            </ul>
+            <ul class="copyright center">
+                <li>&copy; Michael Anokye</li><li>Software Engineer: <a target="_blank" href="https://github.com/michaelanokyej">Portfolio</a></li>
+            </ul>
+        </footer>
+    </section>
+
+<script type="text/javascript" src="assets/js/portfolio.js"></script>
 </body>
 </html>
