@@ -210,7 +210,8 @@ div.projectContainer ul li .description{
 	height: 10px;
 	line-height: 15px;
 	margin: 0px;
-	
+	font-family: 'Roboto', sans-serif;
+	font-size: bold;
 	padding-top: 16px;
 	/*background-color: white;*/
 	text-align: center;
