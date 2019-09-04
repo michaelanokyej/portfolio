@@ -39,16 +39,10 @@ flex: 1;
 div.bio{
 	font-size: 1em;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 1.5rem;
 	text-align: center;
 	background: #F6ECE7;
 	padding: 16px;
-}
-
-#projects{
-	padding: 0px;
-	margin: 0px;
-	background: #EDDDD1;
 }
 
 h2.sectionTitle{
@@ -134,6 +128,9 @@ div.contactForm form button:hover, div.contactForm form button:focus{
 
 #projects{
 	box-shadow: 0 0 30px rgba(72, 94, 115, 0.7);
+	padding: 0px;
+	margin: 0px;
+	background: #EDDDD1;
 }
 
 div.projectContainer{
@@ -150,6 +147,13 @@ div.projectContainer ul{
 	width: 100%;
 	/* box-shadow: 0 0 20px rgba(72, 94, 115, 0.7); */
 	/* height: 500px; */
+}
+
+div.imgWrapper{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
 }
 
 div.projectContainer ul li{
@@ -183,19 +187,14 @@ div.projectContainer ul li .projectImage {
 	padding-right: 24px;
 	padding-top: 0;
 	padding-bottom: 0px;
-	/* float: inline-end; */
-	/*padding: 24px;*/
-	margin: 2px 10px 0px 15px;
-	/* margin: 0 10px; */
-	/*align-items: center;*/
+	margin: 0;
 }
 
 div.project-links{
 	display: flex;
 	display: inline-block;
+	padding: 8px;
 	width: 100%;
-	/* align-items: center; */
-	/* justify-content: center; */
 }
 
 div.project-links .fab, div.project-links .fas{
@@ -216,6 +215,10 @@ div.projectContainer ul li .description{
 	/*background-color: white;*/
 	text-align: center;
 	display: none;
+}
+
+div.paraWrapper{
+	height: 40px;
 }
 
 div.projectContainer ul li .title:hover{
@@ -396,7 +399,6 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 	div.projectContainer{
 	width: 100%;
 	overflow: hidden;
-	/* background: skyblue; */
 	margin: 2px 10px 0px 0px;
 	padding: 20px 0px;
 	}
@@ -427,24 +429,24 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 		height: 60%;
 		padding-left: 8px;
 		padding-right: 8px;
-		margin: 2px 10px 0px 50px;
+		margin: 0;
 		/* display: flex; */
 		/* align-items: center; */
 	}
 
-	div.projectContainer ul li .description{
+	/* div.projectContainer ul li .description{
 		width: 90%;
 		height: 10px;
 		line-height: 15px;
 		/*background-color: white;*/
-		text-align: center;
-	}
+		/* text-align: center; */
+	/* } */ */
 
-	hr{
+	/* hr{
 		width: 80%;
 		margin-left: 56px;
 		margin-right: 0px;
-	}
+	} */
 
 	/*contact for section*/
 
@@ -471,7 +473,6 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 @media screen and (min-width: 1024px){
 	#wrapper{
 		display: flex;
-		/*flex-direction: row;*/
 		align-items: center;
 		height: 100%;
 		width: 100%;
@@ -490,10 +491,8 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 	
 	/*Main body*/
 	#main{
-		/*background-color: #A9BDC1;*/
 		display: flex;
 		flex: 3;
-		/* flex-direction: column; */
 		width: 100%;
 	}
 
