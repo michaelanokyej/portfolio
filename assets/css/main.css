@@ -266,6 +266,11 @@ div.social > ul.copyright{
 	padding-bottom: 24px;
 	padding-left: 10px;
 	padding-right: 10px;
+	/* margin-left: 16px; */
+}
+
+div.social > ul.copyright > li{
+	padding: 8px;
 }
 
 hr{
