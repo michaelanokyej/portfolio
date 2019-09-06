@@ -412,6 +412,15 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 		/* border-radius: 50%; */
 	  }
 
+	  div.bio{
+		font-size: 1.5rem;
+		line-height: 2rem;
+		/* font-weight: bold;
+		text-align: center;
+		background: #F6ECE7;
+		padding: 16px; */
+	}
+
 	div.projectContainer{
 	width: 100%;
 	overflow: hidden;
@@ -487,6 +496,11 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 /* DESKTOP SCREENS */
 
 @media screen and (min-width: 1024px){
+
+	div.bio{
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
 
 	#header .avatar {
 		/* display: block;
