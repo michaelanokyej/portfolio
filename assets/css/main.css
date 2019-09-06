@@ -234,7 +234,7 @@ a.projectButton{
 	/* bottom: 50%; */
 	/* width: 100%; */
 	border: none;
-  	color: #92bde7;
+  	/* color: #92bde7; */
   	padding: 4px 4px;
   	/* margin-left: 80px; */
   	margin-top: 16px;
@@ -273,14 +273,14 @@ div.social > ul.copyright > li{
 	padding: 8px;
 }
 
-hr{
+/* hr{
 	border: 10px solid #94D7F2;
     border-radius: 5px;
     width: 90%;
     margin-left: 4px;
-    margin-right: 16px;
+    margin-right: 16px; */
     /*padding: 16px;*/
-}
+/* } */
 
 .navbar{
 	display: flex;
@@ -356,6 +356,7 @@ header > p{
   margin-right: auto;
   margin-bottom: 30px;
   width: 30%;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -371,7 +372,7 @@ li > a.linkButton{
 	/*border: 1px solid red;*/
 	background-color: #c9e6ff;
   border: none;
-  color: #92bde7;
+  /* color: #92bde7; */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -381,7 +382,7 @@ li > a.linkButton{
 
 li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus{
   /*box-shadow: 0 0 2px 1px rgba(113, 245, 137, 0.5);*/
-  border: 5px solid #F2B3D6;
+  /* border: 5px solid #F2B3D6; */
   outline: 0;
   transition: background-color 2s ease-out;
   background: #92bde7;
@@ -400,6 +401,16 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 /*LARGE SCREENS*/
 
 @media screen and (min-width: 600px){
+
+	#header .avatar {
+		/* display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px; */
+		width: 10rem;
+		height: auto;
+		/* border-radius: 50%; */
+	  }
 
 	div.projectContainer{
 	width: 100%;
@@ -476,6 +487,17 @@ li > a:hover, li > a:focus, div.project-links a:hover, div.project-links a:focus
 /* DESKTOP SCREENS */
 
 @media screen and (min-width: 1024px){
+
+	#header .avatar {
+		/* display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px; */
+		width: 15rem;
+		height: auto;
+		/* border-radius: 50%; */
+	  }
+
 	#wrapper{
 		display: flex;
 		align-items: center;

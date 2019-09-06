@@ -1,18 +1,6 @@
-// $(function(){
-//     $('#projectInfo').hover(function(){
-//         $(this).find("p.description").css({"display": "flex"});
-//     }, function(){
-//         $(this).find("p.description").css({"display": "flex"});
-//     }
-//     });
-// )};
-
-
-$(function(){
-    $('#projectInfo').hover(function(){
-        event.stopPropagation();
-        $(this).find("p.description").css({"display": "flex"});  
+    $('.projectLi').hover(function(){
+        // event.stopPropagation();
+        $(this).find(".description").css({"display": "flex"});  
     },function(){
-        $(this).find("p.description").css({"display": "none"});     
+        $(this).find(".description").css({"display": "none"});     
     });
-});
