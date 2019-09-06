@@ -5,7 +5,7 @@
 
 # What I Learned
 
-* In this portfolio, are some of my private projects I have created to become the best engineer I can be. I have used the following technologies and more in my projects:
+In this portfolio, are some of my private projects I have created and as a life-long learner, I am always working on new private projects to become the best engineer I can be so my porfulio is frequently being updated. I have used the following technologies and more in my projects:
 * Javascript(jQuery,NodeJS, REACTJS etc)
 * Python
 * MySQL
